@@ -85,8 +85,8 @@ while len(nodes)>1:
     node = NodeTree (key1, key2)
     nodes.append((node,c1 + c2))
     nodes = sorted (nodes, key=lambda x: x[1], reverse=True)
-    
-    ```
+
+```
     
 ### Print the characters and its huffmancode
 
